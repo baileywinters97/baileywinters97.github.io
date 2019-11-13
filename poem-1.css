@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+
+body{
+    background-color: #000000;
+    position: relative;
+    width: 2500px;
+    height: 3000px;
+}
+
+p{
+    color: #DCC9B6;
+    font-size: 3em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    text-align: center;
+    word-spacing: 8px;
+    top: 115px;
+}
+
+h1{
+    font-size: 9em;
+    color: rgb(196, 151, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    left: 30px;
+    position: relative;
+    letter-spacing: 10px;
+}
+
+h2{
+    font-size: 3em;
+    color: #FDF4D3;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 430px;
+    top: -30px;
+}
+.box1{
+    height: 50em;
+    width: 50px;
+    position: absolute;
+}
+.grid{
+    background-color:rgb(196, 151, 26);
+    height: 1800px;
+    width: 1600px;
+    position: absolute;
+    left: 32px;
+}
+.grid1{
+    background-color:#684934;
+    height: 250px;
+    width: 2050px;
+    left: 1700px;
+    position: absolute;
+}
+.grid2{
+    background-color: #684934;
+    height: 250px;
+    width: 2050px;
+    left: 1700px;
+    top: 400px;
+    position: absolute;
+}
+.grid3{
+    background-color: #684934;
+    height: 250px;
+    width: 2050px;
+    left: 1700px;
+    position: absolute;
+    top: 800px;
+}
+.grid4{
+    background-color: #684934;
+    height: 250px;
+    width: 2050px;
+    left: 1700px;
+    position: absolute;
+    top: 1200px;
+}
+.grid5{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    left: 2px;
+    border: 17px solid rgb(196, 151, 26);
+    top: 1850px;
+}
+.grid6{
+    background-color: #684934;
+    height: 750px;
+    width: 1050px;
+    position: absolute;
+    left: 550px;
+    top: 1850px;
+}
+.grid7{
+    height: 1000px;
+    width: 2050px;
+    position: absolute;
+    left: 1675px;
+    top: 1555px;
+    border: 20px solid rgb(196, 151, 26);
+}
+.tab1{
+    position: absolute;
+    left: 1850px;
+    top: 290px;
+}
+.tab2{
+    position: absolute;
+    left: 1830px;
+    top: 690px;
+}
+.tab3{
+    position: absolute;
+    left: 1825px;
+    top: 1100px;
+}
+.tab4{
+    position: absolute;
+    left: 1820px;
+    top: 1495px;
+}
+.dot1{
+    height: 150px;
+    width: 300px;
+    position: relative;
+    border: 10px solid  rgb(196, 151, 26);
+    border-radius: 3em;
+    left: 1775px;
+    top: 45px;
+}
+.dot2{
+    height: 150px;
+    width: 650px;
+    position: relative;
+    border: 10px solid rgb(196, 151, 26);
+    border-radius: 3em;
+    left: 1775px;
+    top: 275px;
+}
+.dot3{
+    height: 150px;
+    width: 300px;
+    position: relative;
+    border: 10px solid rgb(196, 151, 26);
+    border-radius: 3em;
+    top: 510px;
+    left: 1775px;
+}
+.dot4{
+    height: 150px;
+    width: 320px;
+    position: relative;
+    position: relative;
+    border: 10px solid rgb(196, 151, 26);
+    border-radius: 3em;
+    top: 730px;
+    left: 1775px;
+}
+.copy{
+    position: absolute;
+    left: 575px;
+    font-size: 9px;
+    top: 1840px;
+}
+.headline{
+    color: #27201C;
+    position: absolute;
+    left: 115px;
+    top: 2130px;
+}
+.quotation{
+    position: relative;
+    left: 1500px;
+    top: 800px;
+    font-size: 55px;
+}
+/*---------- SMART PHONES ---------- */
+
+@media only screen and (max-width: 800px) {
+
+ body{
+        background-color: #ffffff;
+        position: relative;
+        height: 750px;
+        width: 800px;
+    }
+    p{
+        color: #000000;
+    }
+    h1{
+        font-size: 60px;
+        position: relative;
+        left: 110px;
+        top: -20px;
+    }
+    h2{
+        font-size: 30px;
+        position: absolute;
+        left: 250px;
+        top: 30px;
+        color: #684934;
+
+    }
+    p{
+        color: #DCC9B6;
+        font-size: 35px;
+    }
+    .grid{
+        width: 800px;
+        height: 1400px;
+        left: 100px;
+    }
+    .grid1{
+        left: 1px;
+        width: 800px;
+        height: 150px;
+        top: 1450px;
+    }
+    .grid2{
+        left: 1px;
+        width: 800px;
+        height: 150px;
+        top: 1650px;
+    }
+    .grid3{
+        left: 1px;
+        width: 800px;
+        height: 150px;
+        top: 1850px;
+    }
+    .grid4{
+        left: 1px;
+        width: 800px;
+        height: 150px;
+        top: 2050px;
+    }
+    .grid5{
+        position: absolute;
+        height: 200px;
+        width: 765px;
+        top: 2300px;
+    }
+    .grid6{
+        position: absolute;
+        left: 2px;
+        top: 2600px;
+        width: 800px;
+        height: 1120px;
+        
+    }
+    .dot1{
+        left: 1px;
+        position: absolute;
+        top: 1580px;
+        height: 80px;
+        width: 300px;
+        border-radius: 2em;
+        left: 120px;
+    }
+    .dot2{
+        left: 1px;
+        position: absolute;
+        top: 1780px;
+        height: 80px;
+        width: 350px;
+        border-radius: 2em;
+        left: 120px;
+    }
+    .dot3{
+        left: 130px;
+        position: absolute;
+        top: 1990px;
+        height: 80px;
+        width: 300px;
+        border-radius: 2em;  
+    }
+    .dot4{
+        left: 130px;
+        position: absolute;
+        height: 80px;
+        width: 300px;
+        top: 2180px;
+        border-radius: 2em;
+    }
+    .copy{
+        position: absolute;
+        left: 2px;
+        font-size: 2px;
+        top: 2500px;
+}
+.headline{
+    color: #27201C;
+    position: absolute;
+    left: 350px;
+    top: 2310px;
+}
+}
+.quote{
+    position: absolute;
+    left: 2500px;
+    color: #FDF4D3;
+    font-size: 80px;
+    top: 2200px;
+}
+/*---------- TABLETS ---------- */
+
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+
+    body{
+        background-color: #ffffff;
+        position: relative;
+        height: 750px;
+        width: 800px;
+    }
+    p{
+        color: #000000;
+    }
+    h1{
+        font-size: 60px;
+        position: relative;
+        left: 110px;
+        top: -20px;
+    }
+    h2{
+        font-size: 30px;
+        position: absolute;
+        left: 250px;
+        top: 30px;
+        color: #684934;
+
+    }
+    p{
+        color: #DCC9B6;
+        font-size: 35px;
+    }
+    .grid{
+        width: 800px;
+        height: 1400px;
+        left: 100px;
+    }
+    .grid1{
+        left: 1px;
+        width: 800px;
+        height: 150px;
+        top: 1450px;
+    }
+    .grid2{
+        left: 1px;
+        width: 800px;
+        height: 150px;
+        top: 1650px;
+    }
+    .grid3{
+        left: 1px;
+        width: 800px;
+        height: 150px;
+        top: 1850px;
+    }
+    .grid4{
+        left: 1px;
+        width: 800px;
+        height: 150px;
+        top: 2050px;
+    }
+    .grid5{
+        position: absolute;
+        height: 200px;
+        width: 765px;
+        top: 2300px;
+    }
+    .grid6{
+        position: absolute;
+        left: 2px;
+        top: 2600px;
+        width: 800px;
+        height: 1120px;
+        
+    }
+    .dot1{
+        left: 1px;
+        position: absolute;
+        top: 1580px;
+        height: 80px;
+        width: 300px;
+        border-radius: 2em;
+        left: 120px;
+    }
+    .dot2{
+        left: 1px;
+        position: absolute;
+        top: 1780px;
+        height: 80px;
+        width: 540px;
+        border-radius: 2em;
+        left: 120px;
+    }
+    .dot3{
+        left: 130px;
+        position: absolute;
+        top: 1990px;
+        height: 80px;
+        width: 300px;
+        border-radius: 2em;  
+    }
+    .dot4{
+        left: 130px;
+        position: absolute;
+        height: 80px;
+        width: 300px;
+        top: 2180px;
+        border-radius: 2em;
+    }
+    .copy{
+        position: absolute;
+        left: 2px;
+        font-size: 2px;
+        top: 2500px;
+}
+    .tab1{
+        position: absolute;
+        left: 220px;
+        top: 1460px;
+        font-size: 10px;
+        color: #684934;
+    }
+    .tab2{
+        position: absolute;
+        left: 200px;
+        top: 1660px;
+        font-size: 10px;
+    }
+    .tab3{
+        position: absolute;
+        left: 200px;
+        top: 1870px;
+        font-size: 10px;
+    }
+    .tab4{
+        position: absolute;
+        left: 200px;
+        top: 2060px;
+        font-size: 10px;
+    }
+.headline{
+    color: #27201C;
+    position: absolute;
+    left: 350px;
+    top: 2310px;
+}
+.quote{
+    position: absolute;
+    top: 2320px;
+    left: 250px;
+    font-size: 2em;
+    text-align: center;
+}

@@ -22,7 +22,7 @@ body{
 .gifbar{
     background-color: brown;
     height: 15vh;
-    width: 50.5vw;
+    width: 50vw;
     position: absolute;
     left: 800px;
     top: 250px;
@@ -54,7 +54,7 @@ body{
 .gif4{
     background-color: aliceblue;
     height: 230px;
-    width: 633px;
+    width: 630px;
     position: absolute;
     left: 1840px;
     top: 270px;

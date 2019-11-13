@@ -1,0 +1,216 @@
+body{
+    background-color: dimgray;
+    position: relative;
+    width: 3344px;
+    height: 3000px;
+}
+.search{
+    background-color: white;
+    height:60px;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.menu{
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    left: 0;
+    top: 30px;
+    position: fixed;
+}
+.photos{
+    background-color: antiquewhite;
+    height: 420px;
+    width: 420px;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.image1{
+    background-color: aqua;
+    height: 420px;
+    width: 420px;
+    position: relative;
+    left: 500px;
+}
+.image2{
+    background-color: brown;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 1.2px;
+    left: 1000px;
+}
+.image3{
+    background-color: blue;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: .5px;
+    left: 1500px;
+}
+.image4{
+    background-color: black;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 500px;
+}
+.image5{
+    background-color: blueviolet;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+.image6{
+    background-color: cadetblue;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
+.image7{
+    background-color: blanchedalmond;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 500px;
+    left: 1500px;
+}
+.image8{
+    background-color: crimson;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 1000px;
+}
+.image9{
+    background-color: darkslategray;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+}
+.image10{
+    background-color: darkgoldenrod;
+    height: 420px;
+    width: 420px;
+    top: 1000px;
+    position: absolute;
+    left: 1000px;
+}
+.image11{
+    background-color: lightcoral;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 1000px;
+    left: 1500px;
+}
+.image12{
+    background-color: chocolate;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 1500px;
+}
+.image13{
+    background-color: burlywood;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 1500px;
+    left: 500px;
+}
+.image14{
+    background-color: khaki;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 1500px;
+    left: 1000px;
+}
+.image15{
+    background-color: darksalmon;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 1500px;
+    left: 1500px;
+}
+.image16{
+    background-color: deeppink;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 2000px;
+}
+.image17{
+    background-color: lightyellow;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 2000px;
+    left: 500px;
+}
+.image18{
+    background-color: chartreuse;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 2000px;
+    left: 1000px;
+}
+.image19{
+    background-color: darkseagreen;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 2000px;
+    left: 1500px;
+}
+.image20{
+    background-color: crimson;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 2500px;
+}
+.image21{
+    background-color: aquamarine;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 2500px;
+    left: 500px;
+}
+.image22{
+    background-color: khaki;
+    height: 420px;
+    width: 420px;
+    position: absolute;
+    top: 2500px;
+    left: 1000px;
+}
+.image23{
+    background-color: blanchedalmond;
+    height: 420px;
+    width: 420px;
+    top: 2500px;
+    position: absolute;
+    left: 1500px;
+}
+.endmenu{
+    background-color: black;
+    height: 300px;
+    width: 100vw;
+    top: 2700px;
+    left: 0;
+    position: relative;
+}

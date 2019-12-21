@@ -1,0 +1,77 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+<div class="projectimage">{{ title }}</div>
+        <div class="projectimage1">
+                <img src="{{ featured_image | url }}" alt="profileimage">
+        </div>
+        <div class="projectimage2">
+           
+            {% for image in support_images %}
+            <a href="{{ post.url | url }}">
+                <div class="supportimage">
+                        <img src="{{ image | url }}">
+                </div>
+            </a>
+            {% endfor %}
+            
+        </div>
+        <div class="informationgrid">
+        <a href="{{ post.url | url }}">
+                <div class="about">{{ description }}</div>
+                <div class="medium">{{ medium }}</div>
+                <div class="software">{{ software }}</div>
+        
+        </div>
+    </div>
+
+
+
+
+
+<!--
+<div class="work__title">
+    {{ title | upper }}
+</div>
+
+
+<div class="work__layout">
+    <div class="work__featured_image">
+        <img src="{{ featured_image | url }}" />
+    </div>
+    <div>
+        <h4>
+            {{ inspiration }}
+        </h4>
+        <h4>
+            {{ type }}
+        </h4>
+        <h4>
+            {{ materials }}
+        </h4>
+        <h5>
+            {{ description }}
+        </h5>
+        <h6>
+            {{ software }}
+        </h6>
+
+        {% for tag in tags %}
+            {%- if tag != "posts" -%}
+                {% set tagUrl %}/work/{{ tag }}/{% endset %}
+                <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+            {%- endif -%}
+        {% endfor %}
+
+        <div class="work__support_images">
+            {% for image in support_images %}
+                <img src="{{ image | url }}">
+            {% endfor %}
+        </div>
+        
+
+    </div>
+</div>
+-->

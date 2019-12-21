@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.everything
+  size: 1
+  alias: tag
+permalink: work/{{ tag }}/index.html
+renderData:
+  title: Tagged “{{ tag }}”
+---
+<div class="allprojects"></div>
+  <div class="headercontainer">
+      <div class="portfoliopage">All Projects</div>
+      <div class="projectheaderbar"></div>
+  </div>
+  <div class="projectcontainer">
+    {% set postslist = collections[tag] %}
+    {% include "partials/postlist.njk" %}
+  </div>

@@ -101,10 +101,6 @@ a:hover{
     box-shadow: -55px 55px 0px -25px #F04E4F;
     width: auto;
 }
-.image1{
-    width: ;
-
-}
 .pinkbox{
     background-color: #262D30;
     height: 400px;
@@ -331,10 +327,6 @@ a:hover{
     font-size: 15px;
     text-align: center;
     margin-top: 100px;
-}
-
-.caption a{
-    
 }
 .contactgrid{
     display: grid;
@@ -706,10 +698,6 @@ p{
         box-shadow: -55px 55px 0px -25px #F04E4F;
         width: auto;
     }
-    .image1{
-        width: ;
-    
-    }
     .pinkbox{
         background-color: #262D30;
         height: 400px;
@@ -936,10 +924,6 @@ p{
         font-size: 15px;
         text-align: center;
         margin-top: 100px;
-    }
-    
-    .caption a{
-        
     }
     .contactgrid{
         display: grid;
@@ -1313,10 +1297,6 @@ p{
         box-shadow: -55px 55px 0px -25px #F04E4F;
         width: auto;
     }
-    .image1{
-        width: ;
-    
-    }
     .pinkbox{
         background-color: #262D30;
         height: 400px;
@@ -1543,10 +1523,6 @@ p{
         font-size: 15px;
         text-align: center;
         margin-top: 100px;
-    }
-    
-    .caption a{
-        
     }
     .contactgrid{
         display: grid;
@@ -1808,4 +1784,3 @@ p{
         margin-top: 70px;
         margin-left: 170px;
         background-color: #424f5c;
-    }
